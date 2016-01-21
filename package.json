@@ -4,11 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node install"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "canvas": "^1.3.7"
+    "async": "^1.5.2",
+    "buffer-crc32": "^0.2.5",
+    "canvas": "^1.3.7",
+    "eval": "^0.1.1",
+    "gl": "^2.1.5",
+    "mpath": "^0.2.1",
+    "request": "^2.67.0",
+    "vm-shim": "0.0.6",
+    "vm2": "^1.0.1",
+    "w3c-blob": "0.0.1",
+    "webworker-threads": "^0.6.2"
   }
 }
